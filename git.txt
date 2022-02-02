@@ -1,0 +1,10 @@
+git help
+git version
+git add --help
+
+# για αρχικοποίηση του φακέλου
+git init
+
+# για εμφάνιση της κατάστασης των αρχείων
+git status
+
