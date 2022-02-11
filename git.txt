@@ -5,6 +5,21 @@ git add --help
 # για αρχικοποίηση του φακέλου
 git init
 
+
+echo "# blackstorm" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/okostakis/blackstorm.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/okostakis/blackstorm.git
+git branch -M main
+git push -u origin main
+
+
 # για εμφάνιση της κατάστασης των αρχείων
 git status
 
@@ -22,9 +37,6 @@ git config --global user.email "okostakis@gmail.com"
 git commit -m "message"
 
 
-or push an existing repository from the command line
-git remote add origin https://github.com/okostakis/blackstorm.git
-git branch -M main
-git push -u origin main
+
 
 .
