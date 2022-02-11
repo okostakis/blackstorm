@@ -8,3 +8,16 @@ git init
 # για εμφάνιση της κατάστασης των αρχείων
 git status
 
+git add run.py
+
+# Παρακολούθηση όλων των αρχείων
+git add -A
+# Καταργηση παρακολούθησης όλων των αρχείων
+git reset
+
+# δήλωση ποιοι είμαστε
+git config --global user.email "okostakis@gmail.com"
+
+# ενημέρωση αλλαγών
+git commit -m "message"
+.
