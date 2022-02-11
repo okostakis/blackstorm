@@ -1,4 +1,4 @@
-git help
+﻿git help
 git version
 git add --help
 
@@ -20,4 +20,11 @@ git config --global user.email "okostakis@gmail.com"
 
 # ενημέρωση αλλαγών
 git commit -m "message"
+
+
+or push an existing repository from the command line
+git remote add origin https://github.com/okostakis/blackstorm.git
+git branch -M main
+git push -u origin main
+
 .
