@@ -2,7 +2,7 @@
 
 # 12 περιστροφές
 
-from operator import truediv
+
 import myLib252 as myLib
 
 import time
