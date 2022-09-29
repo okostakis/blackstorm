@@ -7343,7 +7343,7 @@ class myCar(legoPart):
         while True:
             c.UpdateSendorDataLimited()
             c.MoveToAngle(targetAngle=ang,speed=speed)
-            c.SetSonarAngle(angle=ang1-c.angle+(10*turn),speed=40)
+            c.SetSonarAngle(angle=ang1-c.angle+(15*turn),speed=40)
             if c.fullDistance>marko:
                 c.StopAllMotors()
                 break
